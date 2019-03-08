@@ -520,7 +520,7 @@ func (w *pkgWriter) WriteMessages(messages []*descriptor.DescriptorProto, prefix
 			if isScalar(field) {
 				continue
 			}
-			l("@property")
+			l("@__builtins__.property")
 			if field.GetLabel() == descriptor.FieldDescriptorProto_LABEL_REPEATED {
 				typename := field.GetTypeName()
 				if typename[0] == '.' && isASCIIUpper(typename[1]) {

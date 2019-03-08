@@ -67,7 +67,7 @@ class SimpleProto3(google___protobuf___message___Message):
     b_oneof_1 = ... # type: typing___Text
     b_oneof_2 = ... # type: typing___Text
 
-    @property
+    @__builtins__.property
     def outer_message(self) -> OuterMessage3: ...
 
     def __init__(self,

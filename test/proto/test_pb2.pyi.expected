@@ -112,22 +112,22 @@ class Simple1(google___protobuf___message___Message):
     a_oneof_1 = ... # type: typing___Text
     a_oneof_2 = ... # type: typing___Text
 
-    @property
+    @__builtins__.property
     def a_inner(self) -> test___proto___inner___inner_pb2___Inner: ...
 
-    @property
+    @__builtins__.property
     def a_nested(self) -> test___proto___nested___nested_pb2___Nested: ...
 
-    @property
+    @__builtins__.property
     def inner_message(self) -> Simple1.InnerMessage: ...
 
-    @property
+    @__builtins__.property
     def rep_inner_message(self) -> google___protobuf___internal___containers___RepeatedCompositeFieldContainer[Simple1.InnerMessage]: ...
 
-    @property
+    @__builtins__.property
     def no_package(self) -> test___proto___nopackage_pb2___NoPackage: ...
 
-    @property
+    @__builtins__.property
     def nested_message(self) -> test___proto___nested___nested_pb2___AnotherNested.NestedMessage: ...
 
     def __init__(self,

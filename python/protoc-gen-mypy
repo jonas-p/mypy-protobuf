@@ -162,7 +162,7 @@ class PkgWriter(object):
 
                 # Getters for non-scalar fields
                 for field in [f for f in desc.field if not is_scalar(f)]:
-                    l("@property")
+                    l("@__builtins__.property")
                     if field.label == d.FieldDescriptorProto.LABEL_REPEATED:
                         msg = self.descriptors.messages[field.type_name]
                         if msg.options.map_entry:

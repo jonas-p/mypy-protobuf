@@ -30,7 +30,7 @@ class lower(google___protobuf___message___Message):
 
 class Upper(google___protobuf___message___Message):
 
-    @property
+    @__builtins__.property
     def Lower(self) -> lower: ...
 
     def __init__(self,
@@ -49,7 +49,7 @@ class Upper(google___protobuf___message___Message):
 
 class lower2(google___protobuf___message___Message):
 
-    @property
+    @__builtins__.property
     def upper(self) -> Upper: ...
 
     def __init__(self,

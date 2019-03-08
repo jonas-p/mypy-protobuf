@@ -29,10 +29,10 @@ class NoPackage(google___protobuf___message___Message):
 
 class NoPackage2(google___protobuf___message___Message):
 
-    @property
+    @__builtins__.property
     def np(self) -> NoPackage: ...
 
-    @property
+    @__builtins__.property
     def np_rep(self) -> google___protobuf___internal___containers___RepeatedCompositeFieldContainer[NoPackage]: ...
 
     def __init__(self,
